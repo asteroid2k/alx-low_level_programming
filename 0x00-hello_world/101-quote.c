@@ -9,8 +9,8 @@
  */
 int main(void)
 {
-char quote[60] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-int length = strlen(quote);
-fwrite(quote, length, 1, stderr);
+char qt[60] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+int length = strlen(qt);
+fwrite(qt, length, 1, stderr);
 return (1);
 }
