@@ -7,29 +7,23 @@
 int main(void)
 {
 	int i = 0;
-	int j = 0;
+	int firstDigit, lastDigit;
 
-	while (i < 10 && j < 10)
+	while (i < 100)
 	{
-		if (i == j || (i > 0 && j < i))
+		firstDigit = i / 10;
+		lastDigit = i % 10;
+		if (lastDigit > firstDigit)
 		{
-			j++;
-			continue;
-		}
-		putchar(i + '0');
-		putchar(j + '0');
-		j++;
-		if (j > 9)
+		putchar(firstDigit + '0');
+		putchar(lastDigit + '0');
+		if (i < 89)
 		{
-			i++;
-			j = 0;
+		putchar(',');
+		putchar(' ');
 		}
-		if (i < 10 && j < 10)
-		{
-			putchar(',');
-			putchar(' ');
 		}
-
+		i++;
 	}
 	putchar('\n');
 
