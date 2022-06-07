@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - main block
- * Description: prints alphabets
+ * print_alphabet - function to print alphabets
+ * Description: prints all english alphabets
  * Return: 0
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char al = 'a';
 
