@@ -23,6 +23,6 @@ int main(void)
 			sum += term;
 		}
 	}
-	printf("%lu\n",sum);
+	printf("%lu\n", sum);
 	return (0);
 }
