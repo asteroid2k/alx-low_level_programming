@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	long int f1, f2, term;
+	unsigned long  int f1, f2, term;
 	int i;
 
 	f1 = 0;
@@ -26,6 +26,5 @@ int main(void)
 			printf(", ");
 		}
 	}
-	printf("\n");
 	return (0);
 }
