@@ -2,6 +2,7 @@
 
 /**
  * print_line - draws a straight line
+ * @n: number of times to print _
  * Description: draws a straight line with _, n times
  */
 
